@@ -39,7 +39,7 @@ BOT_VERSION = "1.6"
 
 # Privacy Mode Configuration and codexbotz delete time
 PRIVACY_MODE = os.getenv("PRIVACY_MODE", "off").lower() == "on"
-AUTO_DELETE_TIME = int(os.getenv("AUTO_DELETE_TIME", 30))
+# AUTO_DELETE_TIME = int(os.getenv("AUTO_DELETE_TIME", 0))
 
 # Your Modiji Url Api Key Here
 MODIJI_API_KEY = os.getenv("MODIJI_API_KEY")
