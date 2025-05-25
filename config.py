@@ -63,8 +63,8 @@ ADMIN_IDS: List[int] = [
     if admin_id.strip().isdigit()
 ]
 
-# File size limit (2GB in bytes)
-MAX_FILE_SIZE = 2000 * 1024 * 1024
+# File size limit (4GB in bytes)
+MAX_FILE_SIZE = 4000 * 1024 * 1024
 
 # Supported file types and extensions
 SUPPORTED_TYPES = [
